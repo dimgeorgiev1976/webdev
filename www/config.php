@@ -1,13 +1,22 @@
-<?php
+<?php 
 
-// DB SETTINGS
+//Настройка БД
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'project');
+define('DB_NAME', 'part-4');
 define('DB_USER', 'root');
-define('DB_PASS', 'root');
+define('DB_PASSWORD', '');
 
-// путь до корневой директории скрипта по протоколу http
-define('HOST', "http://{$_SERVER['HTTP_HOST']}/");
+/**
+* Устанавливает путь до корневой директории скрипта
+* по протоколу HTTP
+*/
 
-// путь до корневой директории на сервере
-define('ROOT', dirname(__FILE__) . '/');
+define('HOST', $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/');
+
+/**
+* Устанавливает физический путь до корневой директории скрипта
+*/
+define('ROOT', dirname(__FILE__).'/');
+
+
+?>

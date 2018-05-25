@@ -1,4 +1,10 @@
+
 <body class="Home-page">
-    <?php echo $content; ?>
+
+
+    <?php 
+    echo $content;
+
+     ?>
 
 </body>

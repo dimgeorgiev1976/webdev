@@ -1,6 +1,6 @@
 <?php
 
-// $currentUser = $_SESSION['logged_user'];
+$currentUser = $_SESSION['logged_user'];
 
 // готовим контент для центральной части
 ob_start();

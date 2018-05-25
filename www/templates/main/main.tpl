@@ -1,3 +1,11 @@
+<main>
+	<h1>MAIN - main.tpl</h1>
+	<!-- <h2><?=$title?></h2>
+	<p><?=$content?></p> -->
+	<h2><?=$aboutName?></h2>
+	<p><?=$aboutDescription?></p>
+</main> 
+
 <div class="container">
         <div class="row resume-wrap">
             <div class="col-md-4 col-lg-3 resume-avatar">
