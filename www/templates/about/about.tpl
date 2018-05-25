@@ -1,3 +1,3 @@
 <main>
-    <h2>This is about.tpl</h2>
+	<h1>ABOUT PAGE - about.tpl</h1>
 </main>
